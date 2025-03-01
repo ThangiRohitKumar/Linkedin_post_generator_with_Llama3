@@ -2,6 +2,7 @@
 Developed a LinkedIn Post Generator using Llama 3, LangChain, Streamlit, and Groq, enhancing content creation for influencers.Implemented data collection and preprocessing techniques to extract and enrich metadata from influencer posts.
 
 Key Steps in the Project:
+
 Data Collection:
 
 Manually collected previous posts from influencers and formats them into a JSON file. This data includes the post text and engagement metrics.
