@@ -6,12 +6,15 @@ Key Steps in the Project:
 Data Collection:
 
 Manually collected previous posts from influencers and formats them into a JSON file. This data includes the post text and engagement metrics.
+
 Pre-processing:
 
 A preprocessing script is created to extract metadata from the posts using the Lama 3.2 model. This includes extracting tags, line counts, and languages, enriching the original JSON data.
+
 Post Generation:
 
 The enriched data is used to create a user interface (UI) with Streamlit, allowing users to select topics, lengths, and languages. When the "Generate" button is clicked, the tool generates a new post based on the selected criteria.
+
 Technical Architecture:
 
 The project is divided into two main stages:
